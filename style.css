@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+        url(./img/coringa-reprod--warner-escada_widelg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    overflow: hidden;
+}
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px; 
+    position: relative; 
+}
+.menu{
+    position:absolute;
+    background-color: aliceblue;
+    width: 3%;
+    height: 2%;
+}
+.menu2{
+    position:relative;
+    background-color: aliceblue;
+    width: 3%;
+    
+    height: 10%;
+}
+.title {
+    color: white;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.ticket {
+    border: 2px solid rgb(211, 19, 57);
+    padding: 10px;
+    height:50px;
+    width: 200px;
+    text-align: center;
+}
+.ticket h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color:aliceblue;
+    gap: 10px;
+}
+.title h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color:aliceblue;
+    gap: 10px;
+    opacity: 0.3;
+}
+main{
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+}
+.big_title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.big_title h1{
+    font-size: 41vw;
+    color: transparent;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 1px white;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: auto;
+}
+.meio{
+    position:relative;
+    display: flex;
+    align-items:end;
+}
+.conteudo{
+
+    display: flex;
+    width: 50%;
+    position:absolute;
+    left: 10vh;
+    bottom: 0;
+    margin-bottom: 12vh;
+    justify-content: center;
+
+}
+.atores{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    left: 12vh;
+    width: 40vh;
+}
+.data{
+    position: absolute;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+    margin-left: 40vh;
+}
+.conteudo p{
+    font-size: 3vh;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+}
+.conteudo h3{
+    font-size: 3vh;
+    color: rgb(211, 19, 57);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+}
+.conteudo h2{
+    font-size: 3vh;
+    color: rgba(58, 58, 58, 0.597);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.conteudo h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30vh;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+footer{
+    height: 15%;
+}
+.direita{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    right: 0%;
+    margin-top: 10%;
+    background-image: url(./img/coringa.webp);
+    background-size: cover;
+    z-index: 2;
+}
+.play {
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+.direita h1{
+    color: antiquewhite;
+    position: absolute;
+    right: 20%;
+    bottom: 58%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vh;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.redes{
+    position: absolute;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    height: 25%;
+    gap: 10%;
+    width: 10%;
+}
+.direita div {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    border: 7px solid rgb(211, 19, 57);
+    border-radius: 100%;
+}
+.direita h{
+    position: absolute;
+    right: 45%;
+    top:35%;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent; 
+    border-bottom: 50px solid transparent; 
+    border-left: 100px solid white;
+}
+.redes f{
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+.redes i{
+    height: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+#insta{
+    width: 80%;
+}
+#x{
+    width: 80%;
+}
+#face{
+    width: 80%;
+
+}
+.redes x{
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+.ticket a{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30vh;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+footer{
+
+    overflow: hidden;
+    height: 10%;
+}
+.filmes{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 11%;
+    gap: 7%;
+}
+#cena1{
+    width: 50%;
+
+}
+#cena2{
+    width: 40%;
+}
+.trailer{
+    position: absolute;
+    width: 10%;
+    height: 16%;
+}
+.trailer h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2vh;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
